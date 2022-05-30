@@ -17,7 +17,7 @@ public class PointTest {
     }
 
     @Test
-    public void when30to02then() {
+    public void when30to02then3dot60() {
         double expected = 3.60;
         int x1 = 3;
         int y1 = 0;
@@ -28,7 +28,7 @@ public class PointTest {
     }
 
     @Test
-    public void when35to62then() {
+    public void when35to62then4dot24() {
         double expected = 4.24;
         int x1 = 3;
         int y1 = 5;
@@ -39,7 +39,7 @@ public class PointTest {
     }
 
     @Test
-    public void when33to33then() {
+    public void when33to33then0() {
         double expected = 0;
         int x1 = 3;
         int y1 = 3;
