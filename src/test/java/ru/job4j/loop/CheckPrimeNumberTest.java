@@ -15,13 +15,13 @@ public class CheckPrimeNumberTest {
     public void when4() {
         int number = 4;
         boolean result = CheckPrimeNumber.check(number);
-        Assert.assertFalse(result);
+        Assert.assertTrue(result);
     }
 
     @Test
     public void when1() {
         int number = 1;
         boolean result = CheckPrimeNumber.check(number);
-        Assert.assertFalse(result);
+        Assert.assertTrue(result);
     }
 }
